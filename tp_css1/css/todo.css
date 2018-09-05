@@ -1,0 +1,69 @@
+body {
+  background-color: #000099;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Helvetica', 'Arial';
+  color: white;
+  text-align: center;
+}
+
+
+.item1 {
+  font-family: 'Helvetica', 'Arial';
+  font-size: large;
+  width:70em;
+  height:3em;
+  background-color: white;
+  padding-top: 23px;
+  margin-bottom: 10px;
+  -moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+.item2 {
+  font-family: 'Helvetica', 'Arial';
+  font-size: large;
+  width:70em;
+  height:3em;
+  background-color: white;
+  padding-top: 23px;
+  margin-bottom: 10px;
+  -moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+.item3 {
+  font-family: 'Helvetica', 'Arial';
+  font-size: large;
+  width:70em;
+  height:3em;
+  background-color: white;
+  padding-top: 23px;
+  margin-bottom: 10px;
+  -moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+
+input[type=text] {
+  width:20em;
+  height:3em;
+  -moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+
+input[type=submit] {
+  width:10em;
+  height:3em;
+  -moz-border-radius:8px;
+-webkit-border-radius:8px;
+border-radius:8px;
+}
