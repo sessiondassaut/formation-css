@@ -41,7 +41,7 @@ li {
 	border: #660000 2px solid;
 }
 
-li:hover, li:active {
+li:hover, li:focus {
 	background-color: #009900;
 }
 
