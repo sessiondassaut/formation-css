@@ -13,10 +13,12 @@ h1	{
 ul > li {
 	background-color: white;
 	margin: 10px;
-	margin-right: 60px;
+	margin-right: auto;
 	padding: 10px;
 	border-radius: 5px;
 	list-style-type:none;
+	margin-left: auto;
+	width: 400px;
 }
 
 input {
