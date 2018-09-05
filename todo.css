@@ -1,0 +1,61 @@
+/* Couleur de fond: #000099
+• Police : 'Helvetica', 'Arial'
+• Texte des listes centré
+• Espacement de 10px autour du texte
+• Arrondis :
+◦ 3px pour le champ de saisie
+◦ 5px pour la liste
+◦ 8px pour le bouton */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #000099;
+    font-family: 'Helvetica', 'Arial';
+    margin: 10px;
+}
+
+h1 {
+    /* font-size: 72px; */
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.item {
+    max-width: 800px;
+    height: 30px;
+    line-height:30px;
+    background-color: white;
+    -webkit-box-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    height: 30px;
+}
+input#text {
+    -webkit-box-border-radius: 3px;
+           -moz-border-radius: 3px;
+                border-radius: 3px;
+}
+input#button {
+    -webkit-box-border-radius: 8px;
+           -moz-border-radius: 8px;
+                border-radius: 8px;
+}
