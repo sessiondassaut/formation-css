@@ -1,0 +1,69 @@
+/* Indications
+• Couleur de fond: #EFECCA
+• Police : 'Helvetica', 'Arial'
+• Titre h1 : #C03000;
+• Titre h2 : #4BB5C1;
+• Menu
+◦ Bord : #660000
+◦ Fond : #C03000
+◦ Fond au survol : #009900. Conserver ce fond également lorsque le menu est sélectionné.
+• Pied de page
+◦ Lien "Nous contacter" : #0000FF, non souligné. */
+
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    background-color: #EFECCA;
+    font-family: 'Helvetica', 'Arial';
+    margin: 10px;
+}
+
+h1 {
+    color: #C03000;
+}
+
+h2 {
+    color: #4BB5C1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    font-weight: bold;
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height:50px;
+    text-align: center;
+    background-color: #C03000;
+    border-style: solid;
+    border-color:#660000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+li:hover {
+    background-color: #009900;
+}
+
+a#toolbar {
+    color: white;
+    text-decoration: none;
+}
+a#contact {
+    color: #0000FF;
+    font-weight: bold;
+    text-decoration: none;
+}
