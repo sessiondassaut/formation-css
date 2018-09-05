@@ -1,0 +1,23 @@
+body
+{
+background-image: url(https://pre00.deviantart.net/5213/th/pre/f/2016/203/9/c/jigglypuff_purin_rondoudou__flat_design_wallpaper__by_floproduction-daay5mb.png);
+font-family: Jazz LET, fantasy;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.tplink
+{
+padding: 10px;
+list-style-type: none;
+margin-bottom:5px;
+background-color: white;
+border-radius: 5px;
+text-align: center;
+}
+
+ul{
+width:400px;
+}

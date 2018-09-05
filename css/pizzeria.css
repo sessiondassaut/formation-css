@@ -1,0 +1,43 @@
+body
+{
+    background-color: #EFECCA;
+    font-family: 'Helvetica', 'Arial';
+}
+
+h1
+{
+    color: #C03000;
+}
+
+h2
+{
+    color: #4BB5C1;
+}
+
+nav ul>li
+{
+    display: inline; 
+}
+
+nav li a
+{
+    padding: 10px;
+    border: 2px solid #660000;
+    background-color: #C03000;
+    color: white;
+}
+
+nav li a:hover, nav li a:focus
+{
+    background-color: #009900;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active 
+{
+    color: #0000FF;
+}
+
+a
+{
+    text-decoration: none;
+}
