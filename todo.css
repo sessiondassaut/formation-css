@@ -1,0 +1,31 @@
+html{
+	background-color: #000099;
+	text-align: center;
+}
+
+h1{
+	font-family:Helvetica, sans-Serif;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+ul{
+	font-family:Arial, sans-Serif;
+	list-style:none;	
+}
+
+li{
+	padding:3px;
+	margin:4px;
+	border: solid 1px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+input[type="text"]{
+	border-radius: 3px;
+}
+
+input[type="submit"]{
+	border-radius: 8px;
+}
