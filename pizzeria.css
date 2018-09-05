@@ -1,0 +1,43 @@
+body {
+	background-color: #EFECCA;
+}
+
+h1 h2 {
+	font-family: : 'Helvetica';
+}
+
+p {
+	font-family: 'Arial';
+}
+
+h1 {
+	color: #C03000;
+}
+
+header>h2 {
+	color: #4BB5C1;
+}
+
+footer a {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #EFECCA;
+}
+
+nav ul>li {
+ 	display: inline-block;
+	border: 3px solid;
+	padding: 10px;
+	background-color: #C03000;
+	text-decoration: none;
+	color: #660000;
+}
+
+nav li a:hover, nav li a:focus {
+	background-color: #009900;
+	color: #EFECCA;
+}
