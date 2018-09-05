@@ -1,34 +1,38 @@
-body {
-	background-color: #000099;
-	font-family: 'Arial';
-	text-align: center;
+
+input#saisie {
+    -webkit-box-border-radius: 3px;
+           -moz-border-radius: 3px;
+                border-radius: 3px;
+}
+input#submit {
+    -webkit-box-border-radius: 8px;
+           -moz-border-radius: 8px;
+                border-radius: 8px;
+} 
+
+body{
+    background-color: #000099;
+    font-family: 'Arial';
 }
 
-h1	{
-	font-family: 'Helvetica';
-	color: white;
-	text-align: center;
+li{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    list-style: none;
+    font-weight: bold;
 }
 
-ul > li {
-	background-color: white;
-	margin: 10px;
-	margin-right: 60px;
-	padding: 10px;
-	border-radius: 5px;
-	list-style-type:none;
+form
+{
+    text-align: center;
 }
 
-input {
-	height: 30px;
-}
 
-#saisie {
-	border-radius: 3px;
-}
-#submit {
-	border-radius: 8px;
-	margin: 5px;
-	box-shadow: 10px;
-	height: 30px;
+h1
+{
+    color: white;
+    text-align: center;
 }
