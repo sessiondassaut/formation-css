@@ -1,0 +1,40 @@
+body {
+    background-color: #EFECCA;
+    font-family: 'Helvetica';
+}
+
+h1 {
+    color: #C03000;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4BB5C1;
+    font-weight: bold;
+}
+
+li {
+    background-color: #C03000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #660000;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    font-weight: normal;
+}
+
+li > a {
+    text-decoration: none;
+    color: #EFECCA;
+}
+
+li:hover {
+    background-color: #009900;
+}
+
+#contact {
+    color: #0000FF;
+    text-decoration:none;
+    font-weight: bold;
+} 
